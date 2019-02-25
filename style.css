@@ -1,0 +1,112 @@
+header{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: grey;
+	box-shadow: 0px 5px 5px black;
+}
+
+ul{
+	display: flex;
+	list-style: none;
+}
+
+a:hover{
+	color: white;
+}
+li a{
+	margin: 0;
+	margin-left: 50px;
+	color: black;
+	list-style: none;
+	text-decoration: none;
+	font-size: 19px;
+}
+
+body{
+	text-align: center;
+	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+background-image: url('latar.jpg');
+}
+
+
+
+p{
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: comic sans ms;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+img{
+	border-radius: 50%;
+	width: 230px;
+	margin-top: 150px;
+	height: 230px;
+	object-fit: cover;	
+
+
+}
+
+.data{
+
+	margin-top: 100px;
+	color: black; 
+  	padding: 10px 25px ;
+  	height: 350px;
+  	width: 55%;
+  	text-align: justify; 
+  	 font-family: arial;
+  	 font-weight: bold;
+  	font-size: 20px;
+  	border-radius: 7px; 
+  	background-color: white; 
+}
+.edu{
+	margin-top: 100px;
+  	height: 500px;
+  	width: 55%;
+  	border-radius: 7px; 
+  	background-color: white;
+
+}
+
+.persen{
+	width:80%;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+}
+
+
+.ski{
+	text-align: left;
+	height: 600px;
+	padding: 10px 25px;
+	background-color: white;
+	margin-top: 100px;
+	width: 55%;
+	color: black;
+
+}
+.ski p{
+	text-align: left;
+	font-size: 25px;
+	color: black;
+}
+
+.bar{
+	width: 40%;
+	background-color: #2D2D2D;
+	border-radius: 5px;
+	margin-left: 30%;
+}
+
